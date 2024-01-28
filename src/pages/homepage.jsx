@@ -82,11 +82,6 @@ const Homepage = () => {
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="homepage-logo-container">
-						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
-						</div>
-					</div>
 
 					<div className="homepage-container">
 						<div className="homepage-first-area">
@@ -104,7 +99,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="homepage.png"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -172,7 +167,8 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
+								<div className="homepage-articles-title">Recent Blogs</div>
+								{myArticles.slice(0,2).map((article, index) => (
 									<div
 										className="homepage-article"
 										key={(index + 1).toString()}

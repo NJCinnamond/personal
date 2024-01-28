@@ -8,7 +8,7 @@
 }
 
 .homepage-container {
-	padding-top: 25px;
+	padding-top: 80px;
 }
 
 .homepage-first-area {
@@ -39,6 +39,7 @@
 .homepage-image-container {
 	width: 370px;
 	height: 370px;
+	padding-top: 60px;
 }
 
 .homepage-image-wrapper {
@@ -81,11 +82,16 @@
 .homepage-articles {
 	flex-basis: 900px;
 	padding-top: 30px;
-	margin-left: -30px;
+}
+
+.homepage-articles-title {
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 20px;
 }
 
 .homepage-article {
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 }
 
 .homepage-works {
@@ -114,7 +120,7 @@
 
 	.homepage-subtitle {
 		width: 100% !important;
-		margin-top: 10px;
+		margin-top: 20px;
 		order: 3;
 	}
 
@@ -124,10 +130,9 @@
 	}
 
 	.homepage-image-container {
-		padding-top: 50px;
-		padding-bottom: 50px;
-		margin-left: 10px;
+		margin: auto;
 		order: 1;
+		padding-top: 40px;
 	}
 
 	.homepage-after-title {
@@ -144,7 +149,5 @@
 
 	.homepage-works {
 		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
 	}
 }
