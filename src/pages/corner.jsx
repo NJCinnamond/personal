@@ -21,7 +21,7 @@ const Contact = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Contact | ${INFO.main.title}`}</title>
+				<title>{`Corner`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -35,14 +35,12 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Contact
+							Corner
 						</div>
 					</div>
 
 					<div className="socials-container">
-						<div className="contact-socials">
-							<Socials />
-						</div>
+						Coming soon
 					</div>
 
 					<div className="page-footer">
