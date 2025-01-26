@@ -45,6 +45,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Crede",
+			description:
+				"Online platform allowing zero-knowledge (ZK) proof generation for identity documents. Created for ETHGlobal Hackathon 2024.",
+			logo: "https://pbs.twimg.com/profile_images/1349729466549821448/zqe2ylpx_400x400.jpg",
+			linkText: "View Project",
+			link: "https://github.com/NJCinnamond/crede",
+		},
+		{
 			title: "FanRise (beta)",
 			description:
 				"Currently working on a decentralized sports betting platform, where players can bet ERC-20 tokens on soccer results and claim payouts direct to their wallet.",
@@ -57,7 +65,7 @@ const INFO = {
 			title: "EtherEggs",
 			description:
 				"Web app where players follow clues to real-world locations and win prizes on the blockchain. Harvard Blockchain Conference 2023 Hackathon Winner",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "https://png.pngtree.com/element_our/20190524/ourmid/pngtree-blue-hand-painted-easter-egg-transparent-element-image_1107491.jpg",
 			linkText: "View Project",
 			link: "https://ethereggs.xyz",
 		},
